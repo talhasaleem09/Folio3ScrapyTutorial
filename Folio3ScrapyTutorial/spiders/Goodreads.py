@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-class GoodeadsSpider(scrapy.Spider):
+class GoodreadsSpider(scrapy.Spider):
     name = 'Goodreads'
     allowed_domains = ['goodreads.com']
     start_urls = ['https://www.goodreads.com/quotes']
